@@ -1,0 +1,268 @@
+.header-image {
+  background-image: url('/img/header_frosting.png');
+  height: 600px; 
+  background-repeat: repeat-x;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  display: block;
+}
+header {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 120px;
+  font-family: 'Comic Sans MS', Comic;
+  color: #FEA1E7;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 900;
+  margin-top: -225px;
+  margin-bottom: 15px;
+
+}
+
+header h2 {
+  font-size: 72px;
+  font-family: 'Comic Sans MS', Comic;
+  color: #FEA1E7;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 900;
+  margin-top: -225px;
+  margin-bottom: 15px;
+
+}
+
+
+.topnav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: "";
+  padding: 15px;
+}
+
+
+.topnav a {
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Comic Sans Ms', Comic;
+  border-radius: 50px;
+  background-color: #D076BB;
+  margin-right: 30px;
+}
+
+.topnav a:last-child {
+  margin-right: 0;
+}
+
+
+.topnav a:hover {
+  background-color: #AA7CD9;
+  color: white;
+}
+
+
+.topnav a.active {
+  background-color: #686ECB;
+  color: white;
+}
+
+
+.hero-image {
+  text-align: center;
+  margin-top: -5px;
+  margin-bottom: 60px;
+   
+}
+
+.hero-image img {
+  max-width: 100%; 
+  height: auto;
+}
+
+
+
+.container {
+  display: flex;
+  align-items: stretch; /* Aligns the text to the height of the image */
+}
+
+.location-poem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 100%;
+  font-family: 'Comic Sans MS', Comic; /* Change to any font family you like */
+  font-size: 72px; /* Adjust font size as needed */
+  font-weight: 900;
+  color: #FEA1E7; /* Replace with your desired color (e.g., hex, rgb, or color name) */
+  text-transform: uppercase;
+  align-self: center;
+  line-height: 4;
+}
+
+.location-poem p {
+  margin: 0; /* Ensures no extra space around each line of text */
+}
+
+
+.location-img {
+  max-height: 100vh; /* Adjust as necessary */
+  width: auto; /* Maintain image aspect ratio */
+}
+
+
+.phone-num {
+  font-family: 'Comic Sans MS', Comic;
+  font-size: 100px;
+  font-weight: 900;
+  color: #50D788;
+  text-align: center;
+  margin-top: -80px;
+}
+.msg-blurb {
+font-family: 'Comic Sans MS', Comic;
+font-size: 40px;
+color: #9B9CFF;
+font-weight: 200;
+text-align: center;
+margin-top: -120px;
+}
+
+.refund-txt {
+font-family: 'Comic Sans MS', Comic;
+font-size: 30px;
+color: #6CDBFE;
+text-align: center;
+margin-top: -35px;
+}
+
+.contact-img {
+  width: auto;
+  text-align: center;
+}
+
+.contact-org {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: .3em auto;
+}
+
+.about {
+  display: flex;
+  align-items: stretch;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 100%;
+  align-self: center;
+  font-family: 'Comic Sans MS', Comic;
+  font-size: 35px;
+  color: black;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 100px;
+  font-weight: 600;
+  color: #D076BB;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+
+.storefront {
+  max-height: 100vh;
+  width: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.card-org {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin: 5em auto;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 #FEA1E7;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  font-family: 'Comic Sans MS', Comic;
+  height: 100%;
+}
+
+.price {
+  color: #D076BB;
+  font-size: 22px;
+  margin-top: auto;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #D076BB;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 900;
+  font-family: 'Comic Sans MS', Comic;
+}
+
+.card button:hover {
+  background-color: white;
+  color: #D076BB
+  
+}
+
+
+.bottomnav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: "";
+  padding: 15px;
+}
+
+.bottomnav a {
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Comic Sans Ms', Comic;
+  border-radius: 50px;
+  background-color: #D076BB;
+  margin-right: 30px;
+}
+
+.bottomnav a:last-child {
+  margin-right: 0;
+}
+
+
+.bottomnav a:hover {
+  background-color: white;
+  color: #D076BB;
+}
+
+  
